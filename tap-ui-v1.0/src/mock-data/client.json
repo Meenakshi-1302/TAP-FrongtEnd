@@ -1,0 +1,24 @@
+{
+    "clients": [
+        {
+          "clientId": 1,
+          "clientName": "John Doe",
+          "clientPosition": "Software Engineer",
+          "clientMobile": "+1234567890",
+          "clientEmail": "johndoe@example.com",
+          "password": "securepassword123",
+          "clientStatus": "Active",
+          "createdAt": "2023-10-01T12:00:00Z",
+          "profileImage": "/profile.jfif",
+          "coverImage": "https://via.placeholder.com/150",
+          "clientPartner": {
+            "employeeId": 2,
+            "employeeName": "Jane Smith"
+          },
+          "clientOrganization": {
+            "organizationId": 3,
+            "organizationName": "Tech Solutions Inc."
+          }
+        }
+      ]
+}

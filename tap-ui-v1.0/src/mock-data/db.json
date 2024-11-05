@@ -1,0 +1,164 @@
+{
+  "requirements": [
+    {
+      "requirementId": "R001",
+      "requiredResourceCount": 5,
+      "probableDesignation": "Software Developer",
+      "requiredSkills": [
+        "Java",
+        "Spring Boot",
+        "Hibernate",
+        "React"
+      ],
+      "requiredExperience": "3-5 years",
+      "jobLocation": "New York, NY",
+      "timeline": "Q1 2024",
+      "minimumBudget": 50000,
+      "maximumBudget": 75000,
+      "buHeadApproval": true,
+      "client": "Tech Solutions Inc.",
+      "mfrId": "MFR001"
+    },
+    {
+      "requirementId": "R002",
+      "requiredResourceCount": 3,
+      "probableDesignation": "Data Analyst",
+      "requiredSkills": [
+        "Python",
+        "SQL",
+        "Tableau",
+        "Data Mining"
+      ],
+      "requiredExperience": "2-4 years",
+      "jobLocation": "Remote",
+      "timeline": "Q2 2024",
+      "minimumBudget": 45000,
+      "maximumBudget": 65000,
+      "buHeadApproval": false,
+      "client": "Analytics Co.",
+      "mfrId": "MFR002"
+    }
+  ],
+  "mfrs": [
+    {
+      "mfrId": "MFR001",
+      "requestDate": "2024-10-01",
+      "department": "Software Development",
+      "requiredDesignation": "Backend Developer",
+      "requiredSkills": [
+        "Java",
+        "Spring Boot",
+        "REST APIs"
+      ],
+      "requiredExperience": "3-5 years",
+      "resourceCount": 3,
+      "location": "New York, NY",
+      "timeline": "Q1 2024",
+      "budgetRange": {
+        "minimum": 60000,
+        "maximum": 80000
+      },
+      "justification": "To support the upcoming project launch",
+      "status": "Pending Approval",
+      "approvals": {
+        "buHead": {
+          "approved": true,
+          "approvalDate": "2024-10-05",
+          "comments": "Approved for Q1 2024 allocation"
+        },
+        "hrHead": {
+          "approved": false,
+          "approvalDate": null,
+          "comments": null
+        }
+      },
+      "client": "Tech Solutions Inc.",
+      "additionalNotes": "Need resources by January 2024 for smooth onboarding"
+    },
+    {
+      "mfrId": "MFR002",
+      "requestDate": "2024-10-10",
+      "department": "Data Science",
+      "requiredDesignation": "Data Analyst",
+      "requiredSkills": [
+        "Python",
+        "SQL",
+        "Tableau"
+      ],
+      "requiredExperience": "2-4 years",
+      "resourceCount": 2,
+      "location": "Remote",
+      "timeline": "Q2 2024",
+      "budgetRange": {
+        "minimum": 50000,
+        "maximum": 70000
+      },
+      "justification": "To enhance data analysis capabilities",
+      "status": "Approved",
+      "approvals": {
+        "buHead": {
+          "approved": true,
+          "approvalDate": "2024-10-12",
+          "comments": "Approved for remote hiring"
+        },
+        "hrHead": {
+          "approved": true,
+          "approvalDate": "2024-10-15",
+          "comments": "Budget confirmed"
+        }
+      },
+      "client": "Analytics Co.",
+      "additionalNotes": "Onboard by March 2024 to support project analysis"
+    }
+  ],
+  "candidates": [
+    {
+      "candidateId": "C001",
+      "name": "John Doe",
+      "email": "johndoe@example.com",
+      "phone": "+1234567890",
+      "skills": [
+        "Java",
+        "Spring Boot",
+        "Hibernate"
+      ],
+      "experience": "4 years",
+      "education": "Bachelor's in Computer Science",
+      "expectedDesignation": "Software Developer",
+      "currentLocation": "New York, NY",
+      "preferredLocation": "Remote",
+      "availability": "Immediate",
+      "expectedSalary": 65000,
+      "noticePeriod": "30 days",
+      "clientFeedback": "Positive",
+      "status": "Shortlisted",
+      "mfrId": "MFR001"
+    },
+    {
+      "candidateId": "C002",
+      "name": "Jane Smith",
+      "email": "janesmith@example.com",
+      "phone": "+0987654321",
+      "skills": [
+        "Python",
+        "SQL",
+        "Data Analysis",
+        "Tableau"
+      ],
+      "experience": "3 years",
+      "education": "Master's in Data Science",
+      "expectedDesignation": "Data Analyst",
+      "currentLocation": "San Francisco, CA",
+      "preferredLocation": "San Francisco, CA",
+      "availability": "Within 2 weeks",
+      "expectedSalary": 60000,
+      "noticePeriod": "15 days",
+      "clientFeedback": "Highly recommended",
+      "status": "In Process",
+      "mfrId": "MFR002"
+    }
+  ]
+  
+   
+  
+}
